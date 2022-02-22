@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Calculator app</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+<div class="login" id="login">
+  <div class="intr">
+    <a>Login Page</a>
+  </div>
+  <input type="password" class="password" id="password" placeholder="Put the fixed password here">
+  <button class="ok" id="ok" onclick="login()">Ok</button>
+</div>
+
+
+
+
+
+
+<div class="container" id="container">
+  <div class="calculator">
+<input type="text" placeholder="0" 
+    id="output-screen">
+<button onclick="clr()">CL</button>
+<button onclick="del()">DEL</button>
+<button onclick="display('%')">%</button>
+<button onclick="display('/')">÷</button>
+<button onclick="display('7')">7</button>
+<button onclick="display('8')">8</button>
+<button onclick="display('9')">9</button>
+<button onclick="display('*')">×</button>
+<button onclick="display('4')">4</button>
+<button onclick="display('5')">5</button>
+<button onclick="display('6')">6</button>
+<button onclick="display('-')">-</button>
+<button onclick="display('1')">1</button>
+<button onclick="display('2')">2</button>
+<button onclick="display('3')">3</button>
+<button onclick="display('+')">+</button>
+<button onclick="display('.')">.</button>
+<button onclick="display('0')">0</button>
+<button onclick="calculate()"class="equal">=</button>
+
+
+  </div>
+</div>
+
+
+
+
+
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+</html>
