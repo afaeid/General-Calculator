@@ -22,13 +22,3 @@ function del() {
     outputScreen.value=outputScreen.value.slice(0,-1);
 }
 
-function login() {
-  let passWord = document.getElementById("password");
-  if (passWord.value == "aser%%¥¥|") {
-    document.getElementById("login").style.display = "none";
-    document.getElementById("container").style.display = "flex";
-  } else {
-    alert("Your password is incorrect! Please try again");
-    passWord.value = '';
-  }
-}
