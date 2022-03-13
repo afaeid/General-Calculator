@@ -10,6 +10,9 @@
   background-size: 15%;
   position: fixed;
 }
+iframe{
+  display:none;
+}
 .container {
    height: 100vh;
    display: flex;

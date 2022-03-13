@@ -22,3 +22,7 @@ function del() {
     outputScreen.value=outputScreen.value.slice(0,-1);
 }
 
+var preloader = document.getElementById('loader');
+window.addEventListener('load',function(){
+  preloader.style.display = 'none';
+})
