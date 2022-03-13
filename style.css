@@ -10,7 +10,7 @@
   background-size: 15%;
   position: fixed;
 }
-iframe{
+#vid{
   display:none;
 }
 .container {
